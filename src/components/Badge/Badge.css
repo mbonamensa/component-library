@@ -1,0 +1,64 @@
+.defaults {
+    padding: 0.5rem;
+    text-align: center;
+    font-family: "Inter";
+    font-weight: 400;
+    width: 5rem;
+    height: auto;
+}
+
+/* Colors */
+
+.gray {
+    background-color: #f3f4f6;
+    color: #1f2937;
+}
+
+.red {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+.amber {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.emerald {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.blue {
+    background-color: #dbeafe;
+    color: #1e40af;
+}
+
+.indigo {
+    background-color: #e0e7ff;
+    color: #3730a3;
+}
+
+.purple {
+    background-color: #f3e8ff;
+    color: #6b21a8;
+}
+
+.pink {
+    background-color: #fce7f3;
+    color: #9d174d;
+}
+
+/* Shapes */
+
+.defaultShape {
+    border-radius: 0;
+}
+
+.roundedSquare {
+    border-radius: 0.5rem;
+}
+
+.pill {
+    border-radius: 5rem;
+}
