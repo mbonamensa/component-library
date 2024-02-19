@@ -5,10 +5,10 @@ import { defineConfig } from "vite";
 export default defineConfig ({
   build: {
     lib: {
-      // entry: resolve(__dirname, "src/index.jsx"),
+      entry: resolve(__dirname, "src/index.jsx"),
       name: "react-component-library",
    		 
-      // fileName: "index",
+      fileName: "index",
     },
     rollupOptions: {
       external: ["react"],
