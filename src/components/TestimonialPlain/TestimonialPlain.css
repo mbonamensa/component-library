@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tp-container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 56px 12px;
+    background-color: #EFF6FF;
+
+}
+
+.tp-img-container {
+    align-self: center;
+    max-width: 180px;
+}
+
+.tp-img {
+    width: 100%;
+    height: 100%;
+}
+
+.pattern-container {
+    position: absolute;
+    left: -80px;
+    bottom: -210px;
+    z-index: 0;
+    width: 160px;
+}
+
+.tp-text {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 100;
+}
+
+.tp-role {
+    font-size: 13px;
+    font-weight: 500;
+    color: #6b7280;
+}
+
+.testimonial-name {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.tp-footer {
+    margin-top: 16px;
+    z-index: 50;
+    position: relative;
+}
+
+.tp-content {
+    font-family: "Inter";
+}
+
+.testimonial-icon {
+    font-size: 36px;
+    color: #d1d5db;
+    opacity: 0.5
+}
+
+@media (min-width:768px) {
+    .tp-container {
+        padding: 64px 144px
+    }
+    
+    .tp-img-container {
+        height: 100%;
+        max-height: none;
+        width: auto;
+        max-width: 250px;
+        left: 30px
+    }
+
+    .tp-img {
+        padding: 0;
+    }
+
+    .pattern-container {
+        bottom: -50px;
+        left: -120px;
+        padding-right: 32px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .tp-content {
+       text-align: center;
+    }
+
+}
+
+@media (min-width:1024px) {
+    .pattern-container {
+        padding-right: 48px;
+    }
+}

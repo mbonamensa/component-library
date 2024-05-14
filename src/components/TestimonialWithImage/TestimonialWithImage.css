@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.twi-container {
+    position: relative
+}
+
+.midhelper {
+    height: 100px;
+    background: white;
+}
+
+.twi-img-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    max-height: 220px;
+    overflow: hidden;
+}
+
+.twi-img {
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.twi-text {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.twi-role {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.twi-name {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.twi-footer {
+    margin-top: 16px;
+}
+
+.twi-content {
+    background-color: #1e40af;
+    padding-top: 128px;
+    padding-bottom: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: white;
+    font-family: "Inter";
+}
+
+.twi-icon {
+    font-size: 36px;
+    color: #d1d5db;
+    opacity: 0.5
+}
+
+@media (min-width:768px) {
+    .twi-container {
+        display: flex;
+        align-items: center;
+        padding: 30px 0;
+    }
+    
+    .midhelper {
+        height: 0px;
+    }
+    
+    .twi-img-container {
+        height: 100%;
+        max-height: none;
+        width: auto;
+        max-width: 250px;
+        left: 30px
+    }
+    .twi-img {
+        padding: 0;
+    }
+    
+    .twi-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 310px;
+    }
+
+}

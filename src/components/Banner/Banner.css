@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 0.375rem;
+    font-family: "Inter";
+    font-size: 0.6rem;
+}
+
+.flex {
+    display: flex;
+    gap: 0.5rem
+}
+
+.mainLabel {
+    font-weight: 500;
+    line-height: 1.25;
+    font-size: 0.8rem;
+}
+
+.subLabel {
+    margin-top: 0.5rem;    
+}
+
+.icon {
+    font-size: 1rem;
+}
+
+/* Status */
+
+.neutral {
+    background-color: #eff6ff;;
+    color: #1c51b9;
+}
+
+.neutralMainLabel {
+    color: #1e40af;
+}
+
+.neutralIcon {
+    color: #60a5fa;
+}
+
+.success {
+    background-color: #ecfdf5;
+    color: #047857;
+}
+
+.successMainLabel {
+    color: #065f46;
+}
+
+.successIcon {
+    color: #34d399;
+}
+
+.warning {
+    background-color: #fffbeb;
+    color: #b45309;
+}
+
+.warningMainLabel {
+    color: #92400e;
+}
+
+.warningIcon {
+    color: #fbbf24;
+}
+
+.error {
+    background-color: #fef2f2;
+    color: #b45309;
+}
+
+.errorMainLabel {
+    color: #92400e;
+}
+
+.errorIcon {
+    color: #f87171;
+}
