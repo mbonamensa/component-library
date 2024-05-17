@@ -1,4 +1,4 @@
-import Banner from "../components/Banner/Banner"
+import Banner from "../components-library-react/Banner/Banner"
 import CodeBox from "./CodeBox"
 
 

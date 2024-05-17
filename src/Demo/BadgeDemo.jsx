@@ -1,4 +1,4 @@
-import Badge from "../components/Badge/Badge"
+import Badge from "../components-library-react/Badge/Badge"
 import CodeBox from "./CodeBox"
 
 
