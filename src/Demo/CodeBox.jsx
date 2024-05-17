@@ -52,16 +52,18 @@ export default function CodeBox({code}) {
 
 
     return (
-        <pre>
+        <div className="code-box-wrapper">
             <div className="copy-container">
             <span className={`copied ${showCopied ? "show" : ""}`}>Copied!</span>
             <div className="copy" title="Copy Code" onClick={copyToClipboard}>
                 <FaRegClipboard />
             </div>
             </div>
-            <code className={`language-jsx`}>
-                {code}
-            </code>
-        </pre>
+            <pre>
+                <code className={`language-jsx`}>
+                    {code}
+                </code>
+            </pre>
+        </div>
     )
 }
