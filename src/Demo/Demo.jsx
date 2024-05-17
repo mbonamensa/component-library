@@ -84,7 +84,7 @@ export default function Demo() {
             <header>
                 <div className="header-layout">
                     <h1>React Component Library</h1>
-                    <div><a className="vo-github" href="https://github.com/mbonamensa/component-library"><FaGithub /><span className="vo-github-text">View on GitHub</span></a></div>
+                    <div><a className="vo-github" href="https://github.com/mbonamensa/component-library" target="_blank"><FaGithub /><span className="vo-github-text">View on GitHub</span></a></div>
                 </div>
                 <hr />
             <MenuBar openMobileMenu={openMobileMenu} />
