@@ -7,34 +7,34 @@ export default function TestimonialDemo() {
 
     const TestimonialWICode = `
     <TestimonialWithImage>
-    <TestimonialWithImage.Content>
-        <TestimonialWithImage.Text>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Sed urna nulla vitae laoreet augue. Amet feugiat est 
-        integer dolor auctor adipiscing nunc urna, sit.
-        </TestimonialWithImage.Text> 
-        <TestimonialWithImage.Footer>
-            <TestimonialWithImage.Name>May Andersons</TestimonialWithImage.Name>
-            <TestimonialWithImage.Role>Workcation CTO</TestimonialWithImage.Role>
-        </TestimonialWithImage.Footer>
-    </TestimonialWithImage.Content>
+        <TestimonialWithImage.Content>
+            <TestimonialWithImage.Text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed urna nulla vitae laoreet augue. Amet feugiat est 
+            integer dolor auctor adipiscing nunc urna, sit.
+            </TestimonialWithImage.Text> 
+            <TestimonialWithImage.Footer>
+                <TestimonialWithImage.Name>May Andersons</TestimonialWithImage.Name>
+                <TestimonialWithImage.Role>Workcation CTO</TestimonialWithImage.Role>
+            </TestimonialWithImage.Footer>
+        </TestimonialWithImage.Content>
     </TestimonialWithImage>
     `
 
     const TestimonialPlainCode = `
     <TestimonialPlain>
-    <TestimonialPlain.Content>
-        <TestimonialPlain.Text>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Sed urna nulla vitae laoreet augue. Amet feugiat est 
-        integer dolor auctor adipiscing nunc urna, sit.
-        </TestimonialPlain.Text> 
-        <TestimonialPlain.Footer>
-            <TestimonialPlain.Name>May Andersons</TestimonialPlain.Name>
-            <TestimonialPlain.Role>Workcation CTO</TestimonialPlain.Role>
-        </TestimonialPlain.Footer>
-    </TestimonialPlain.Content>
-</TestimonialPlain>
+        <TestimonialPlain.Content>
+            <TestimonialPlain.Text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed urna nulla vitae laoreet augue. Amet feugiat est 
+            integer dolor auctor adipiscing nunc urna, sit.
+            </TestimonialPlain.Text> 
+            <TestimonialPlain.Footer>
+                <TestimonialPlain.Name>May Andersons</TestimonialPlain.Name>
+                <TestimonialPlain.Role>Workcation CTO</TestimonialPlain.Role>
+            </TestimonialPlain.Footer>
+        </TestimonialPlain.Content>
+    </TestimonialPlain>
     `
 
     return (
