@@ -15,7 +15,7 @@ Card: Cards provide information or prompt for performing an action, such as "cli
 Testimonial: Enhance your site credibility with testimonials, showcasing user reviews, quotes, or endorsements.
 
 ## Installation
-To use the library, download the source code [here](https://github1s.com/mbonamensa/component-library/tree/main/src/components) and right clicking on the components folder.
+To use the library, download the source code [here](https://github1s.com/mbonamensa/component-library/tree/main/src/components) and right clicking on the components-library-react folder.
 
 ## Documentatioin
 For more detailed documentation of each component, please visit the Documentation page.
