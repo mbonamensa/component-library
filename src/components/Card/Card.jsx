@@ -16,8 +16,6 @@ export default function Card({
         height: height
     }
 
-    console.log(children)
-
     return (
 
         <div className={`card-container`} style={userStyles}>

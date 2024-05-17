@@ -1,5 +1,5 @@
-import TestimonialPlain from "../components/TestimonialPlain/TestimonialPlain"
-import TestimonialWithImage from "../components/TestimonialWithImage/TestimonialWithImage"
+import TestimonialPlain from "../components/TestimonialPlain/index.js"
+import TestimonialWithImage from "../components/TestimonialWithImage/index.js"
 import CodeBox from "./CodeBox"
 
 

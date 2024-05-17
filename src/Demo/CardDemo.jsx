@@ -1,4 +1,4 @@
-import Card from "../components/Card/Card"
+import Card from "../components/Card/index.js"
 import CodeBox from "./CodeBox"
 
 
