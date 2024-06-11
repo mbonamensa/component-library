@@ -1,6 +1,6 @@
 
 
-export default function GettingStarted() {
+export default function Home() {
     return (
         <div className="sections">
             <h2 id="getting-started">Getting Started</h2>

@@ -1,6 +1,6 @@
-import TestimonialPlain from "../components-library-react/TestimonialPlain/index.js"
-import TestimonialWithImage from "../components-library-react/TestimonialWithImage/index.js"
-import CodeBox from "./CodeBox"
+import TestimonialPlain from "../../components-library-react/TestimonialPlain/index.js"
+import TestimonialWithImage from "../../components-library-react/TestimonialWithImage/index.js"
+import CodeBox from "../components/CodeBox.jsx"
 
 
 export default function TestimonialDemo() {

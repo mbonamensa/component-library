@@ -1,5 +1,5 @@
-import Badge from "../components-library-react/Badge/Badge"
-import CodeBox from "./CodeBox"
+import Badge from "../../components-library-react/Badge/Badge"
+import CodeBox from "../components/CodeBox"
 
 
 export default function BadgeDemo() {

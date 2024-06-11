@@ -1,5 +1,5 @@
-import Card from "../components-library-react/Card/index.js"
-import CodeBox from "./CodeBox"
+import Card from "../../components-library-react/Card/index.js"
+import CodeBox from "../components/CodeBox.jsx"
 
 
 export default function CardDemo() {

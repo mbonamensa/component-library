@@ -1,5 +1,5 @@
-import Banner from "../components-library-react/Banner/Banner"
-import CodeBox from "./CodeBox"
+import Banner from "../../components-library-react/Banner/Banner"
+import CodeBox from "../components/CodeBox"
 
 
 export default function BannerDemo() {
