@@ -15,6 +15,7 @@ body {
 .page-layout {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -24,15 +25,22 @@ header {
     z-index: 100;
 }
 
-footer {
-    display: flex;
-    align-items: center;
-    border-top: 0.1rem solid lightgrey;
-    gap: 0.8rem;
-    margin-left: 1rem;
+.footer-wrapper {
     margin-top: auto;
     overflow: hidden;
     max-width: 1110px;
+    max-width: 1300px;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    border-top: 0.1rem solid #d3d3d361;
+    gap: 0.8rem;
+    max-width: 1110px;
+    padding: 1rem 2rem;
+    width: 100%;
 }
 
 .footer-icon-link {
@@ -349,6 +357,7 @@ code[class*="language-"] {
 
     footer {
         margin-left: 20rem;
+        padding: 1rem 0;
     }
 
 }
