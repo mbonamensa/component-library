@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * {
     padding: 0;
@@ -7,9 +7,8 @@
 }
 
 body {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     overflow-y: scroll;
-
 }
 
 .page-layout {
@@ -43,16 +42,17 @@ footer {
     width: 100%;
 }
 
-.footer-icon-link {
+.footer-icon-link, .vo-github {
     width: 17px;
     height: 17px;
+    display: block;
 }
 
 .footer-icon-link:hover {
     opacity: 0.8;
 }
 
-.footer-icon-link svg {
+.footer-icon-link svg, .vo-github svg {
     width: 100%;
     height: 100%;
 }
@@ -79,7 +79,7 @@ footer {
 }
 
 h1 {
-    font-size: 1.5rem
+    font-size: 1.2rem
 }
 
 h2, h3 {
@@ -217,6 +217,7 @@ hr {
 .table-container {
     border: 0.1rem solid #5b5b5b4a;
     border-radius: 0.3rem;
+    overflow-x: auto;
 }
 
 table {
@@ -322,6 +323,10 @@ code[class*="language-"] {
         justify-content: center;
         font-size: 0.8rem;
         line-height: normal;
+    }
+
+    h1 {
+        font-size: 1.5rem;
     }
 
     .vo-github-text {
