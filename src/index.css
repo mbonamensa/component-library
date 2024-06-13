@@ -180,7 +180,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5rem;
+    margin: 5rem 0;
 }
 
 .component-list-gsp {
@@ -325,6 +325,21 @@ code[class*="language-"] {
         line-height: normal;
     }
 
+    .footer-icon-link, .vo-github {
+        width: unset;
+        height: unset;
+    }
+    
+    .footer-icon-link:hover {
+        opacity: 0.8;
+    }
+    
+    .footer-icon-link svg, .vo-github svg {
+        width: unset;
+        height: unset;
+    }
+    
+
     h1 {
         font-size: 1.5rem;
     }
@@ -336,6 +351,10 @@ code[class*="language-"] {
     .content-wrapper {
         display: flex;
         min-height: 100vh;
+    }
+
+    .card-wrapper {
+        margin: 5rem;
     }
     
     .sidebar-list-container {
@@ -376,3 +395,4 @@ code[class*="language-"] {
         margin: 0 auto;
     }
 }
+
