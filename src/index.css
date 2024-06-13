@@ -352,10 +352,6 @@ code[class*="language-"] {
         display: flex;
         min-height: 100vh;
     }
-
-    .card-wrapper {
-        margin: 5rem;
-    }
     
     .sidebar-list-container {
         padding: 1.5rem 2rem;
