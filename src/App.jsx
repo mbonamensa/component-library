@@ -5,6 +5,7 @@ import CardDemo from "./Demo/pages/CardDemo"
 import TestimonialDemo from "./Demo/pages/TestimonialDemo"
 import Home from "./Demo/pages/Home"
 import Layout from "./Demo/Layout"
+import NotFound from "./Demo/pages/404"
 
 export default function App() {
     return (
@@ -17,6 +18,7 @@ export default function App() {
                     <Route path="card" element={<CardDemo />} />
                     <Route path="testimonial" element={<TestimonialDemo />}/>
                 </Route>
+                <Route path="*" element={ <NotFound /> }/> 
             </Routes>
         </BrowserRouter>
     )
